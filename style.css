@@ -48,3 +48,19 @@ p {
 .downCount {
   color: red;
 }
+
+#decreaseBtn {
+  transition: background-color 0.3s ease-in-out;
+}
+
+#decreaseBtn:hover {
+  background-color: red;
+}
+
+#increaseBtn {
+  transition: background-color 0.3s ease-in-out;
+}
+
+#increaseBtn:hover {
+  background-color: green;
+}
