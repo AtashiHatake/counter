@@ -23,6 +23,7 @@ function rst() {
   countTxt.classList.remove("upCount");
   countTxt.classList.remove("downCount");
   countTxt.textContent = 0;
+  count = 0;
 }
 
 increase.addEventListener("click", upCt);
